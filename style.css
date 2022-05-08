@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #fafafa;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;   
+    height: auto;
+    object-fit: contain;
+}
+
+p {    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #949494;
+}
+
+.btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 45%;
+    top: 33%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.youstalkedafurry {
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media only screen and (min-width: 480px) {
+    img {
+        max-width: 30%;
+    }
+
+    .btn {
+        left: 49%;
+        top: 30%;
+    }
+}
